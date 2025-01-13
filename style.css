@@ -10,7 +10,7 @@ body{
 .grid-container{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr ;
-grid-template-rows: 80px 100px 80px 200px 200px 80px 150px;
+grid-template-rows: 80px 100px 80px 200px 200px 150px 70px 150px;
 margin: 0px;
 padding: 0px;
 
@@ -23,6 +23,13 @@ padding: 0px;
     background-color: azure;
     
     
+}
+
+.images{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: azure;
 }
 
 
@@ -124,37 +131,37 @@ padding: 0px;
 .element:nth-child(7){
     background-color: #ffffff;
     
-    grid-column: 1/4; 
-    grid-row: 7; 
-}
-
-.element:nth-child(8){
-    background-color: #ffffff;
-    
     grid-column: 3; 
     grid-row: 5; 
 }
 
-.element:nth-child(9){
+.element:nth-child(8){
     background-color: #ffffff;
     
     grid-column: 1/4; 
     grid-row: 6; 
 }
 
-.element:nth-child(10){
+.element:nth-child(9){
     background-color: #ffffff;
     
     grid-column: 1/4; 
-    grid-row: 7/8; 
+    grid-row: 7; 
 }
 
-.element:nth-child(11){
+.element:nth-child(10){
     background-color: #ffffff;
     
     grid-column: 1/4; 
     grid-row: 8; 
 }
+
+/*.element:nth-child(11){
+    background-color: #ffffff;
+    
+    grid-column: 1/4; 
+    grid-row: 8; 
+}*/
 
 .element ul{
     list-style: none;
